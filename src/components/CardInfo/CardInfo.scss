@@ -1,0 +1,106 @@
+.cardInfo {
+  max-width: 592px;
+  min-width: 280px;
+  max-height: 630px;
+  min-height: 280px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  display: flex;
+  padding: 0 40px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  button {
+    background-color: var(--dark-blue);
+    width: 344px;
+    height: 60px;
+    border-radius: 40px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__info {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+
+    h2 {
+      color: var(--dark-blue);
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      margin: 0;
+    }
+
+    h3 {
+      color: var(--blue);
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      margin: 0;
+      padding-top: 24px;
+    }
+
+    p {
+      color: var(--black);
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 27px;
+      margin: 0;
+    }
+  }
+
+  &__service {
+    display: flex;
+    max-width: 512px;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 20px;
+    align-items: center;
+  }
+
+  @media (max-width: 500px) {
+    align-items: center;
+    padding: 0 20px;
+
+    img{
+      width: 32px;
+      height: 32px;
+    }
+    button {
+      width: 220px;
+      height: 48px;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &__info {
+      gap: 16px;
+    }
+    h2 {
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    h3 {
+      padding-top: 8px;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}

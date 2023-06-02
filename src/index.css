@@ -1,0 +1,33 @@
+@import url(./vendor/normalize.scss);
+@import url(./fonts/font.css);
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --white: #FFF;
+  --black: #333333;
+  --violet: #726DA8;
+  --blue: #A0D2DB;
+  --dark-blue: #394573;
+  --light-blue: #BEE7E8;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+  background-color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-text-size-adjust: 100%;
+}
