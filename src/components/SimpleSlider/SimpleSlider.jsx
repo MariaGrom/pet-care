@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderDog from "../SliderDog/SliderDog";
 import SliderCat from "../SliderCat/SliderCat";
+import "./SimpleSlider.scss";
 
 export default function SimpleSlider({onClick}) {
   var settings = {
@@ -14,27 +15,9 @@ export default function SimpleSlider({onClick}) {
     slidesToScroll: 1
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="SliderDefault">
       <SliderCat />
       <SliderDog onClick={onClick}/>
-      {/* <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div> */}
     </Slider>
   );
 }

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className='footer'>
       <a className='footer__logo'></a>
-      <div className='footer__contacts'>
+      <div id="contacts" className='footer__contacts'>
         <p>8(800)999-88-77</p>
         <p>info@petcare.com</p>
       </div>

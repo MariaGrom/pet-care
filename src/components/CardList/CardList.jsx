@@ -7,7 +7,10 @@ function CardList() {
   return (
     <section className="cardList">
       <div className="cardList__container">
-        <CardDog />
+        <div className="card-rotation">
+          <CardDog />
+          <CardInfo />
+        </div>
         <CardCat />
       </div>
     </section>

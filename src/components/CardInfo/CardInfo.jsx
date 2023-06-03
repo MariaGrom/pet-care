@@ -3,7 +3,7 @@ import CheckIcon from "../../images/check.svg";
 
 function CardInfo() {
   return (
-    <div className="cardInfo card-rot card-back">
+    <div className="cardInfo back">
       <div className="cardInfo__info">
         <div>
         <h2>Онлайн-консультация с терапевтом</h2>
