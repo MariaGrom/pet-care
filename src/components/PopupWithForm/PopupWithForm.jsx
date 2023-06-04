@@ -1,4 +1,3 @@
-import React from "react";
 import "./PopupWithForm.scss";
 
 function PopupWithForm(props) {

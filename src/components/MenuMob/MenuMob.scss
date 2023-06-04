@@ -1,0 +1,53 @@
+.menumob{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+
+  li{
+    margin-bottom: 24px;
+  }
+
+
+  a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  
+
+  &_opened {
+    visibility: visible;
+    opacity: 1;
+  }
+  &__close-button{
+    background-image: url(../../images/btn-close-menu.svg);
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 32px;
+    cursor: pointer;
+  }
+}
+

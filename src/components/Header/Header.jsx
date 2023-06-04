@@ -4,7 +4,8 @@ import instagramIcon from '../../images/insta.svg';
 import telegramIcon from '../../images/telegram.svg';
 import vkIcon from '../../images/vk.svg';
 
-function Header() {
+function Header(props) {
+
   return (
     <header className='header'>
       <a><img src={logoIcon} alt="logo"/></a>
@@ -16,7 +17,7 @@ function Header() {
          <li><a herf="#" target="_parent">Услуги</a></li>
          <li><a herf="#" target="_parent">Контакты</a></li>
         </ul>
-        <button className='header__menu'></button>
+        <button className='header__menu' onClick={props.onClick}></button>
       </nav>
       <ul className='header__contacts'>
   <li><a herf="#" target="_blank"><img src={instagramIcon} alt="instagram"/></a></li>

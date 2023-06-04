@@ -34,7 +34,6 @@
   }
 
   &__content {
-    border: 1px solid red;
     width: calc(100% - 2 * 112px);
     position: relative;
     margin: 0 auto;
@@ -63,7 +62,6 @@
     max-width: 606px;
     display: flex;
     gap: 24px;
-    border: 1px solid red;
     flex-direction: column;
     text-align: start;
   }
