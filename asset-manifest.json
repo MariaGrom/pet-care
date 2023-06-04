@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/pet-care/static/css/main.408c7708.css",
+    "main.js": "/pet-care/static/js/main.d76d87bd.js",
+    "static/media/slider-cat.svg": "/pet-care/static/media/slider-cat.63bf37cc3930f46e9792.svg",
+    "static/media/cat.jpeg": "/pet-care/static/media/cat.04e9bf0c0dc003ce7f33.jpeg",
+    "static/media/slider-dog-mob.svg": "/pet-care/static/media/slider-dog-mob.d8085b34b362ac8bb135.svg",
+    "static/media/slider-dog.svg": "/pet-care/static/media/slider-dog.5ff52e90e8117be41daa.svg",
+    "static/media/dog.jpeg": "/pet-care/static/media/dog.53d281f3601ed6d9c486.jpeg",
+    "static/media/Montserrat-Regular.woff2": "/pet-care/static/media/Montserrat-Regular.95e767291a95957b7117.woff2",
+    "static/media/Montserrat-SemiBold.woff2": "/pet-care/static/media/Montserrat-SemiBold.e5f70df19d9fef3d4846.woff2",
+    "static/media/Montserrat-Medium.woff2": "/pet-care/static/media/Montserrat-Medium.33c91ccd9048859465db.woff2",
+    "static/media/Montserrat-SemiBold.woff": "/pet-care/static/media/Montserrat-SemiBold.bbea9c2c497c7c7cff85.woff",
+    "static/media/Montserrat-Medium.woff": "/pet-care/static/media/Montserrat-Medium.d5e28364c6eae25aeb4a.woff",
+    "static/media/Montserrat-Regular.woff": "/pet-care/static/media/Montserrat-Regular.65d7525760db1cd20960.woff",
+    "static/media/logo.svg": "/pet-care/static/media/logo.eac7d629f604bee23476752ecc374028.svg",
+    "static/media/vk.svg": "/pet-care/static/media/vk.e13e45bdd6b10407492eee34e6fe1fc1.svg",
+    "static/media/slick.svg": "/pet-care/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pet-care/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pet-care/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/btn-close-menu.svg": "/pet-care/static/media/btn-close-menu.63e92ad417c982c21964.svg",
+    "static/media/close.svg": "/pet-care/static/media/close.c7ce7bd5711da9e2477e.svg",
+    "static/media/insta.svg": "/pet-care/static/media/insta.0eebca3ca2081d30129e8fc0520d0d30.svg",
+    "static/media/slick.woff": "/pet-care/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/check.svg": "/pet-care/static/media/check.ee88bdb8e15b49bcd9502e90e68f89c3.svg",
+    "static/media/menu.svg": "/pet-care/static/media/menu.4b619ad973a0069a28a6.svg",
+    "static/media/telegram.svg": "/pet-care/static/media/telegram.bf9c6cf2817c91c1a6b5a9e5fe3873a7.svg",
+    "index.html": "/pet-care/index.html",
+    "static/media/Arrow 1.svg": "/pet-care/static/media/Arrow 1.433bc2cc0ef69aae7be67d420d40f3b1.svg",
+    "static/media/radio-btn.svg": "/pet-care/static/media/radio-btn.b7e16a4f1ddc72f91d3b.svg",
+    "main.408c7708.css.map": "/pet-care/static/css/main.408c7708.css.map",
+    "main.d76d87bd.js.map": "/pet-care/static/js/main.d76d87bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.408c7708.css",
+    "static/js/main.d76d87bd.js"
+  ]
+}
